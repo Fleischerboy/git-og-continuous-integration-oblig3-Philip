@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test_LeapYear" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-10-11T12:51:50" hostname="MSI" time="0.107">
+<testsuite name="Test_LeapYear" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-10-25T16:23:01" hostname="MSI" time="0.143">
   <properties/>
-  <testcase name="Year_Divided_By_Hundred_Is_Not_A_Leap_Year()" classname="Test_LeapYear" time="0.022"/>
-  <testcase name="Year_Not_Divided_By_four_Is_Not_A_Leap_Year()" classname="Test_LeapYear" time="0.001"/>
-  <testcase name="Year_Divided_By_Hundred_But_Not_FourHundred_Is_Not_A_LeapYear()" classname="Test_LeapYear" time="0.001"/>
-  <testcase name="Year_Divided_By_Four_Is_A_Leap_Year()" classname="Test_LeapYear" time="0.002"/>
-  <testcase name="[1] true, 2024" classname="Test_LeapYear" time="0.022"/>
+  <testcase name="Year_Divided_By_Hundred_Is_Not_A_Leap_Year()" classname="Test_LeapYear" time="0.039"/>
+  <testcase name="Year_Divided_By_Four_Is_A_Leap_Year()" classname="Test_LeapYear" time="0.001"/>
+  <testcase name="[1] true, 2024" classname="Test_LeapYear" time="0.023"/>
   <testcase name="[2] true, 2000" classname="Test_LeapYear" time="0.001"/>
   <testcase name="[3] false, 1800" classname="Test_LeapYear" time="0.001"/>
-  <testcase name="[4] false, 1700" classname="Test_LeapYear" time="0.002"/>
-  <testcase name="[5] false, 2021" classname="Test_LeapYear" time="0.002"/>
-  <testcase name="[6] true, 1864" classname="Test_LeapYear" time="0.001"/>
-  <testcase name="[7] false, 1705" classname="Test_LeapYear" time="0.001"/>
-  <testcase name="[8] true, 1584" classname="Test_LeapYear" time="0.001"/>
-  <testcase name="[9] true, 1684" classname="Test_LeapYear" time="0.001"/>
-  <testcase name="[10] false, 1582" classname="Test_LeapYear" time="0.002"/>
-  <testcase name="[11] false, -1600" classname="Test_LeapYear" time="0.002"/>
-  <testcase name="[12] true, 2024" classname="Test_LeapYear" time="0.001"/>
+  <testcase name="[4] false, 1700" classname="Test_LeapYear" time="0.001"/>
+  <testcase name="[5] false, 2021" classname="Test_LeapYear" time="0.001"/>
+  <testcase name="[6] true, 1864" classname="Test_LeapYear" time="0.002"/>
+  <testcase name="[7] false, 1705" classname="Test_LeapYear" time="0.002"/>
+  <testcase name="[8] true, 1584" classname="Test_LeapYear" time="0.002"/>
+  <testcase name="[9] true, 1684" classname="Test_LeapYear" time="0.002"/>
+  <testcase name="[10] false, 1582" classname="Test_LeapYear" time="0.001"/>
+  <testcase name="[11] false, -1600" classname="Test_LeapYear" time="0.001"/>
+  <testcase name="[12] true, 2024" classname="Test_LeapYear" time="0.002"/>
+  <testcase name="Year_Divided_By_Hundred_But_Not_Four_Hundred_Is_Not_A_LeapYear()" classname="Test_LeapYear" time="0.002"/>
+  <testcase name="Year_Divided_By_Four_Hundred_Is_A_Leap_Year()" classname="Test_LeapYear" time="0.001"/>
+  <testcase name="Year_Not_Divided_By_Four_Is_Not_A_Leap_Year()" classname="Test_LeapYear" time="0.002"/>
   <system-out><![CDATA[2001 is not a leap year!
-1700 is not a leap year!
-1800 is not a leap year!
 2000 is a leap year!
 2024 is a leap year!
 2000 is a leap year!
@@ -33,6 +32,9 @@
 Year must be greater then 1582 - the first year of Gregorian calendar
 Year must be greater then 1582 - the first year of Gregorian calendar
 2024 is a leap year!
+1800 is not a leap year!
+2000 is a leap year!
+1700 is not a leap year!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
