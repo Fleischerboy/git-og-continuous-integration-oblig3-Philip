@@ -2,6 +2,7 @@ public class LeapYear {
 
     final static int gregorianCalendar = 1582;
 
+
     public static boolean isLeapYear(int year) {
         String isLeapYear = String.format("%d is a leap year!", year);
         String isNotLeapYear = String.format("%d is not a leap year!", year);
